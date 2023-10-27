@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Raven Digital Agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;700;800&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body class="bg-main">
+    <!-- HEADER SECTION -->
+    <header class="mb-7 flex xl:mb-32">
+      <!-- Left Side. Social Network -->
+      <div class="relative xl:hidden">
+        <div class="social-link text-white">
+          <a href="#" class="-rotate-90 transform text-lg font-medium">Linkedin</a>
+          <a href="#" class="-rotate-90 transform text-lg font-medium">Instagram</a>
+          <a href="#" class="-rotate-90 transform text-lg font-medium">Facebook</a>
+        </div>
+        <div class="social-line"></div>
+      </div>
+
+      <!-- Right Side -->
+      <div class="flex w-full justify-center">
+        <div class="flex w-full max-w-[1940px] flex-col">
+          <!-- Logo & Nav -->
+          <div class="mt-12 flex flex-col items-center xl:ml-0 xl:p-3 sm:mt-5">
+            <div class="flex w-full items-center justify-between">
+              <!-- Logo -->
+              <a class="flex" href="/">
+                <img src="img/logo.svg" alt="logo" />
+              </a>
+
+              <!-- Main Navigation -->
+              <nav>
+                <ul
+                  class="flex flex-wrap justify-end gap-x-[60px] pr-4 font-firasans text-xl font-medium text-white lg:gap-x-4 sm:hidden"
+                >
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Portfolio</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">News</a></li>
+                  <li><a href="#">Contacts</a></li>
+                  <li><a href="#">Elements</a></li>
+                </ul>
+              </nav>
+
+              <!-- Burger Button -->
+              <div
+                id="burger"
+                class="group relative z-50 hidden h-5 w-[30px] cursor-pointer sm:mr-5 sm:block"
+              >
+                <span
+                  class="absolute left-0 top-0 h-[1px] w-full translate-y-0 bg-white transition-transform group-[.active]:translate-y-2 group-[.active]:rotate-45"
+                ></span>
+                <span
+                  class="absolute left-0 top-1/2 h-[1px] w-full bg-white transition-opacity group-[.active]:opacity-0"
+                ></span>
+                <span
+                  class="absolute bottom-0 left-0 h-[1px] w-full bg-white transition-transform group-[.active]:-translate-y-[11px] group-[.active]:-rotate-45"
+                ></span>
+              </div>
+              <!-- Burger Navigation -->
+              <nav
+                id="mobile-menu"
+                class="fixed bottom-0 left-0 right-0 top-0 z-40 hidden h-screen w-screen items-center justify-center bg-main"
+              >
+                <ul
+                  class="flex flex-col items-center gap-y-4 font-firasans text-4xl font-medium text-white"
+                >
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Portfolio</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">News</a></li>
+                  <li><a href="#">Contacts</a></li>
+                  <li><a href="#">Elements</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <!-- Main header content -->
+          <div class="relative flex sm:justify-center">
+            <div
+              class="mt-32 flex items-center gap-x-32 xl:ml-0 xl:mt-10 lg:justify-center sm:flex-col"
+            >
+              <!-- Content -->
+              <div
+                class="z-10 mt-14 flex max-w-2xl flex-col xl:pl-3 lg:mt-0 lg:max-w-md md:mt-0 md:max-w-sm sm:mb-10 sm:max-w-2xl"
+              >
+                <h1
+                  class="mb-6 align-top font-firasans text-[85px] font-bold leading-tight text-white xl:text-6xl lg:text-5xl md:text-4xl"
+                >
+                  WE ARE
+                  <br class="lg:hidden" />
+                  DIGITAL AGENCY
+                </h1>
+                <p
+                  class="mb-12 font-firasans text-xl font-light text-white lg:mb-8 lg:text-lg md:line-clamp-4"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla
+                  turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis
+                  lacus, odio velit eu eget ac tortor. Ac sit ultricies hendrerit pellentesque arcu
+                  fames sit lectus. Scelerisque id bibendum velit cras.
+                </p>
+                <a
+                  class="btn blue-shadow max-w-fit p-2 font-firasans text-lg text-white filter"
+                  href="#"
+                >
+                  Learn more
+                </a>
+              </div>
+
+              <!-- Header image -->
+              <div class="absolute right-0 xl:static xl:max-w-2xl md:flex md:items-center">
+                <img
+                  class="max-w-[900px] rounded-tl-[92px] xl:max-w-full sm:rounded-br-[92px]"
+                  src="img/header.jpg"
+                  alt="our team"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- WHAT WE DO SECTION -->
+    <section class="relative flex justify-center pb-20">
+      <h2
+        class="absolute -top-[130px] flex justify-center text-5xl font-medium text-white xl:-top-20 xl:text-4xl sm:left-0 sm:pl-2 xs:-top-16 xs:text-3xl"
+      >
+        What we do
+      </h2>
+      <div id="splide1" class="splide max-w-[1440px] xl:px-2 sm:w-full">
+        <!-- Main container -->
+        <div class="splide__track">
+          <div
+            class="splide__list grid grid-cols-4 gap-3 md:grid-cols-3 sm:flex sm:grid-cols-2 sm:gap-0 xs:grid-cols-1"
+          >
+            <!-- Block 1 -->
+            <div
+              class="splide__slide group relative max-w-[400px] rounded-[5px] bg-tertiary pl-6 pt-10 text-white"
+            >
+              <div class="flex flex-col justify-between">
+                <div class="z-10 mb-3 flex flex-col">
+                  <h3 class="mb-9 pr-6 text-2xl font-extrabold uppercase">app development</h3>
+                  <p class="mb-9 pr-6">
+                    Some quick example text to build on the card title and make up the bulk of the
+                    card's content.
+                  </p>
+                  <a class="mb-24 text-base font-medium underline" href="#">Contact us</a>
+                </div>
+                <div class="flex justify-end">
+                  <div
+                    class="absolute bottom-0 flex h-[102px] w-[136px] items-center justify-center rounded-bl-[5px] rounded-br-[5px] rounded-tl-[66px] bg-btn duration-300 ease-out group-hover:h-[95%] group-hover:w-[95%] group-hover:rounded-tl-[500px]"
+                  ></div>
+                </div>
+              </div>
+              <!-- Icon -->
+              <img
+                class="absolute bottom-6 right-10 h-12 w-12"
+                src="img/icons/whatWeDo/01_computer-line.svg"
+                alt="computer"
+              />
+            </div>
+
+            <!-- Block 2 -->
+            <div
+              class="splide__slide group relative max-w-[400px] rounded-[5px] bg-tertiary pl-6 pt-10 text-white"
+            >
+              <div class="flex flex-col justify-between">
+                <div class="z-10 mb-3 flex flex-col">
+                  <h3 class="mb-9 pr-6 text-2xl font-extrabold uppercase">WEBSITE DEVELOPMENT</h3>
+                  <p class="mb-9 pr-6">
+                    Some quick example text to build on the card title and make up the bulk of the
+                    card's content.
+                  </p>
+                  <a class="mb-24 text-base font-medium underline" href="#">Contact us</a>
+                </div>
+                <div class="flex justify-end">
+                  <div
+                    class="absolute bottom-0 flex h-[102px] w-[136px] items-center justify-center rounded-bl-[5px] rounded-br-[5px] rounded-tl-[66px] bg-btn duration-300 ease-out group-hover:h-[95%] group-hover:w-[95%] group-hover:rounded-tl-[500px]"
+                  ></div>
+                </div>
+              </div>
+              <!-- Icon -->
+              <img
+                class="absolute bottom-6 right-10 h-12 w-12"
+                src="img/icons/whatWeDo/02_terminal-window-line.svg"
+                alt="computer"
+              />
+            </div>
+
+            <!-- Block 3 -->
+            <div
+              class="splide__slide group relative max-w-[400px] rounded-[5px] bg-tertiary pl-6 pt-10 text-white"
+            >
+              <div class="flex flex-col justify-between">
+                <div class="z-10 mb-3 flex flex-col">
+                  <h3 class="mb-9 pr-6 text-2xl font-extrabold uppercase">DIGITAL MARKETING</h3>
+                  <p class="mb-9 pr-6">
+                    Some quick example text to build on the card title and make up the bulk of the
+                    card's content.
+                  </p>
+                  <a class="mb-24 text-base font-medium underline" href="#">Contact us</a>
+                </div>
+                <div class="flex justify-end">
+                  <div
+                    class="blue-shadow absolute bottom-0 flex h-[102px] w-[136px] items-center justify-center rounded-bl-[5px] rounded-br-[5px] rounded-tl-[66px] bg-btn duration-300 ease-out group-hover:h-[95%] group-hover:w-[95%] group-hover:rounded-tl-[500px]"
+                  ></div>
+                </div>
+              </div>
+              <!-- Icon -->
+              <img
+                class="absolute bottom-6 right-10 h-12 w-12"
+                src="img/icons/whatWeDo/03_artboard-2-line.svg"
+                alt="computer"
+              />
+            </div>
+
+            <!-- Block 4 -->
+            <div
+              class="splide__slide group relative max-w-[400px] rounded-[5px] bg-tertiary pl-6 pt-10 text-white"
+            >
+              <div class="flex flex-col justify-between">
+                <div class="z-10 mb-3 flex flex-col">
+                  <h3 class="mb-9 pr-6 text-2xl font-extrabold uppercase">DIGITAL MARKETING</h3>
+                  <p class="mb-9 pr-6">
+                    Some quick example text to build on the card title and make up the bulk of the
+                    card's content.
+                  </p>
+                  <a class="mb-24 text-base font-medium underline" href="#">Contact us</a>
+                </div>
+                <div class="flex justify-end">
+                  <div
+                    class="blue-shadow absolute bottom-0 flex h-[102px] w-[136px] items-center justify-center rounded-bl-[5px] rounded-br-[5px] rounded-tl-[66px] bg-btn duration-300 ease-out group-hover:h-[95%] group-hover:w-[95%] group-hover:rounded-tl-[500px]"
+                  ></div>
+                </div>
+              </div>
+              <!-- Icon -->
+              <img
+                class="absolute bottom-6 right-10 h-12 w-12"
+                src="img/icons/whatWeDo/04_Group.svg"
+                alt="computer"
+              />
+            </div>
+
+            <!-- Block 5 -->
+            <div
+              class="splide__slide group relative max-w-[400px] rounded-[5px] bg-tertiary pl-6 pt-10 text-white"
+            >
+              <div class="flex flex-col justify-between">
+                <div class="z-10 mb-3 flex flex-col">
+                  <h3 class="mb-9 pr-6 text-2xl font-extrabold uppercase">SEO & CONTENT WRITING</h3>
+                  <p class="mb-9 pr-6">
+                    Some quick example text to build on the card title and make up the bulk of the
+                    card's content.
+                  </p>
+                  <a class="mb-24 text-base font-medium underline" href="#">Contact us</a>
+                </div>
+                <div class="flex justify-end">
+                  <div
+                    class="blue-shadow absolute bottom-0 flex h-[102px] w-[136px] items-center justify-center rounded-bl-[5px] rounded-br-[5px] rounded-tl-[66px] bg-btn duration-300 ease-out group-hover:h-[95%] group-hover:w-[95%] group-hover:rounded-tl-[500px]"
+                  ></div>
+                </div>
+              </div>
+              <!-- Icon -->
+              <img
+                class="absolute bottom-6 right-10 h-12 w-12"
+                src="img/icons/whatWeDo/05_bar-chart-2-line.svg"
+                alt="computer"
+              />
+            </div>
+
+            <!-- Block 6 -->
+            <div
+              class="splide__slide group relative max-w-[400px] rounded-[5px] bg-tertiary pl-6 pt-10 text-white"
+            >
+              <div class="flex flex-col justify-between">
+                <div class="z-10 mb-3 flex flex-col">
+                  <h3 class="mb-9 pr-6 text-2xl font-extrabold uppercase">GRAPHIC DESIGNING</h3>
+                  <p class="mb-9 pr-6">
+                    Some quick example text to build on the card title and make up the bulk of the
+                    card's content.
+                  </p>
+                  <a class="mb-24 text-base font-medium underline" href="#">Contact us</a>
+                </div>
+                <div class="flex justify-end">
+                  <div
+                    class="blue-shadow absolute bottom-0 flex h-[102px] w-[136px] items-center justify-center rounded-bl-[5px] rounded-br-[5px] rounded-tl-[66px] bg-btn duration-300 ease-out group-hover:h-[95%] group-hover:w-[95%] group-hover:rounded-tl-[500px]"
+                  ></div>
+                </div>
+              </div>
+              <!-- Icon -->
+              <img
+                class="absolute bottom-6 right-10 h-12 w-12"
+                src="img/icons/whatWeDo/06_paint-brush-line.svg"
+                alt="computer"
+              />
+            </div>
+
+            <!-- Block 7 -->
+            <div
+              class="splide__slide col-span-2 flex max-w-[700px] flex-col justify-center pb-6 pl-12 text-white md:pl-6 sm:max-w-[400px]"
+            >
+              <h3 class="mb-7 text-[32px] font-bold uppercase">
+                Solutions for
+                <br />
+                your bussiness
+              </h3>
+              <p class="mb-8 text-xl font-light">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <a
+                class="btn blue-shadow max-w-fit p-2 font-firasans text-lg text-white filter"
+                href="#"
+              >
+                Learn more
+              </a>
+            </div>
+          </div>
+          <ul
+            class="splide__pagination splide__pagination--ltr"
+            role="tablist"
+            aria-label="Select a slide to show"
+          >
+            <li role="presentation">
+              <button
+                class="splide__pagination__page is-active"
+                type="button"
+                role="tab"
+                aria-controls="splide01-slide01"
+                aria-label="Go to slide 1"
+                aria-selected="true"
+              ></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR WORKS SECTION -->
+    <section class="flex justify-center bg-secondary pt-12 sm:pt-6">
+      <div class="mb-56 max-w-[1440px] text-center xl:px-2 md:mb-20 sm:mb-14">
+        <h2 class="section-title">Our Works</h2>
+
+        <div class="grid grid-cols-12 gap-5 md:gap-3">
+          <div class="col-span-3 sm:col-span-6">
+            <img
+              class="h-full w-full rounded-lg object-cover"
+              src="img/ourWorks/01.jpg"
+              alt="desktop"
+            />
+          </div>
+          <div class="col-span-6 sm:col-span-6">
+            <img
+              class="h-full w-full rounded-lg object-cover"
+              src="img/ourWorks/02.jpg"
+              alt="logo"
+            />
+          </div>
+          <div class="col-span-3 sm:col-span-6">
+            <img
+              class="h-full w-full rounded-lg object-cover"
+              src="img/ourWorks/03.jpg"
+              alt="smartphone"
+            />
+          </div>
+          <div class="col-span-4 flex h-full w-full flex-col text-left text-white sm:col-span-6">
+            <h3 class="mb-7 text-[32px] font-bold uppercase sm:mb-3 xs:text-lg">not impressed?</h3>
+            <p class="mb-8 text-xl font-light sm:text-base xs:mb-3 xs:text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <a
+              class="btn blue-shadow max-w-fit p-2 font-firasans text-lg text-white filter xs:text-sm"
+              href="#"
+            >
+              Learn more
+            </a>
+          </div>
+          <div class="col-span-2 sm:col-span-6">
+            <img
+              class="h-full w-full rounded-lg object-cover"
+              src="img/ourWorks/04.jpg"
+              alt="pad"
+            />
+          </div>
+          <div class="col-span-6 sm:col-span-6">
+            <img
+              class="h-full w-full rounded-lg object-cover"
+              src="img/ourWorks/05.jpg"
+              alt="notebook"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENT SECTION -->
+    <section class="mb-[120px] flex justify-center bg-veryBlue sm:mb-10">
+      <div
+        class="grid w-full max-w-[1440px] grid-cols-5 py-[100px] xl:px-3 lg:gap-x-6 md:px-3 sm:grid-cols-3 xs:grid-cols-2"
+      >
+        <!-- Block 1 -->
+        <div class="justify-self-center sm:mb-6">
+          <h3 class="mb-6 text-5xl font-bold text-white">9854</h3>
+          <p class="text-2xl font-bold uppercase text-[#8FC2FF]">
+            Projects
+            <br />
+            completed
+          </p>
+        </div>
+
+        <!-- Block 2 -->
+        <div class="relative justify-self-center sm:mb-6">
+          <div class="vline lg:hidden"></div>
+          <h3 class="mb-6 text-5xl font-bold text-white">840</h3>
+          <p class="text-2xl font-bold uppercase text-[#8FC2FF]">clients</p>
+        </div>
+
+        <!-- Block 3 -->
+        <div class="justify-self-center sm:mb-6">
+          <h3 class="mb-6 text-5xl font-bold text-white">321</h3>
+          <p class="text-2xl font-bold uppercase text-[#8FC2FF]">
+            active
+            <br />
+            clients
+          </p>
+        </div>
+
+        <!-- Block 4 -->
+        <div class="justify-self-center sm:mb-6">
+          <h3 class="mb-6 text-5xl font-bold text-white">5410</h3>
+          <p class="text-2xl font-bold uppercase text-[#8FC2FF]">
+            cups
+            <br />
+            of cofee
+          </p>
+        </div>
+
+        <!-- Block 5 -->
+        <div class="justify-self-center">
+          <h3 class="mb-6 text-5xl font-bold text-white">9854</h3>
+          <p class="text-2xl font-bold uppercase text-[#8FC2FF]">
+            Projects
+            <br />
+            completed
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section
+      id="splide2"
+      class="splide mb-[220px] flex h-[520px] w-full flex-col items-center lg:mb-[50px] lg:h-[620px] md:mb-0 sm:mb-10 sm:h-full sm:items-start sm:px-2 xs:mb-14 xs:max-w-[450px]"
+    >
+      <!-- header for mobile -->
+      <div class="hidden sm:flex">
+        <h2 class="section-title">Testimonials</h2>
+      </div>
+      <div
+        class="splide__track flex w-full max-w-[1440px] items-center px-2 sm:flex-col xs:flex-wrap"
+      >
+        <div class="splide__list w-full">
+          <!-- Slide 1 -->
+          <div
+            class="splide__slide flex items-center gap-x-20 lg:gap-x-6 sm:flex-col sm:items-start"
+          >
+            <!-- Avatar -->
+            <div
+              class="h-full max-h-[517px] w-full max-w-[546px] rounded-[5px] rounded-tr-[92px] bg-[url('../img/testimonials_01.jpg')] bg-cover bg-center bg-no-repeat sm:mb-6 sm:h-[400px] xs:mb-4"
+            ></div>
+
+            <div class="flex">
+              <div class="h-full max-w-[770px]">
+                <h2
+                  class="mb-[2rem] text-5xl font-medium text-white xl:text-4xl sm:mb-7 sm:hidden xs:mb-3 xs:text-3xl"
+                >
+                  Testimonials
+                </h2>
+
+                <!-- Text by client -->
+                <h3 class="mb-3 text-2xl font-medium text-[#D0D0D0]">Jane Doe</h3>
+                <p class="mb-5 text-2xl font-medium text-[#727272]">Company / CEO</p>
+                <p class="text-xl font-light text-white">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla
+                  turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis
+                  lacus, odio velit eu eget ac tortor. Ac sit ultricies hendrerit pellentesque arcu
+                  fames sit lectus. Scelerisque id bibendum velit cras.
+                </p>
+                <br />
+                <p class="text-xl font-light text-white">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla
+                  turpis tempor enim. Vel tristique suspendisse eget sodales egestas.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div
+            class="splide__slide flex items-center gap-x-20 lg:gap-x-6 sm:flex-col sm:items-start"
+          >
+            <!-- Avatar -->
+            <div
+              class="h-full max-h-[517px] w-full max-w-[546px] rounded-[5px] rounded-tr-[92px] bg-[url('../img/testimonials_01.jpg')] bg-cover bg-center bg-no-repeat sm:mb-6 sm:h-[400px] xs:mb-4"
+            ></div>
+
+            <div class="flex">
+              <div class="h-full max-w-[770px]">
+                <h2
+                  class="mb-[2rem] text-5xl font-medium text-white xl:text-4xl sm:mb-7 sm:hidden xs:mb-3 xs:text-3xl"
+                >
+                  Testimonials
+                </h2>
+
+                <!-- Text by client -->
+                <h3 class="mb-3 text-2xl font-medium text-[#D0D0D0]">Jane Doe</h3>
+                <p class="mb-5 text-2xl font-medium text-[#727272]">Company / CEO</p>
+                <p class="text-xl font-light text-white">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla
+                  turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis
+                  lacus, odio velit eu eget ac tortor. Ac sit ultricies hendrerit pellentesque arcu
+                  fames sit lectus. Scelerisque id bibendum velit cras.
+                </p>
+                <br />
+                <p class="text-xl font-light text-white">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla
+                  turpis tempor enim. Vel tristique suspendisse eget sodales egestas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div
+            class="splide__slide flex items-center gap-x-20 lg:gap-x-6 sm:flex-col sm:items-start"
+          >
+            <!-- Avatar -->
+            <div
+              class="h-full max-h-[517px] w-full max-w-[546px] rounded-[5px] rounded-tr-[92px] bg-[url('../img/testimonials_01.jpg')] bg-cover bg-center bg-no-repeat sm:mb-6 sm:h-[400px] xs:mb-4"
+            ></div>
+
+            <div class="flex">
+              <div class="h-full max-w-[770px]">
+                <h2
+                  class="mb-[2rem] text-5xl font-medium text-white xl:text-4xl sm:mb-7 sm:hidden xs:mb-3 xs:text-3xl"
+                >
+                  Testimonials
+                </h2>
+
+                <!-- Text by client -->
+                <h3 class="mb-3 text-2xl font-medium text-[#D0D0D0]">Jane Doe</h3>
+                <p class="mb-5 text-2xl font-medium text-[#727272]">Company / CEO</p>
+                <p class="text-xl font-light text-white">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla
+                  turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis
+                  lacus, odio velit eu eget ac tortor. Ac sit ultricies hendrerit pellentesque arcu
+                  fames sit lectus. Scelerisque id bibendum velit cras.
+                </p>
+                <br />
+                <p class="text-xl font-light text-white">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla
+                  turpis tempor enim. Vel tristique suspendisse eget sodales egestas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- UI Element for slider -->
+        <div
+          class="flex h-[385px] flex-col justify-between md:ml-3 sm:ml-0 sm:h-[100px] sm:w-[342px] sm:flex-row sm:items-center sm:px-8"
+        >
+          <div class="text-center text-[32px] font-bold text-white sm:text-2xl">01</div>
+          <div class="splide__pagination"></div>
+          <div class="text-center text-[32px] font-bold text-white sm:text-2xl">03</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR TEAM SECTION -->
+    <section class="mb-[160px] flex w-full justify-center md:mb-[50px]">
+      <div class="max-w-[1440px] xl:px-2">
+        <h2 class="section-title">Our team</h2>
+
+        <div class="grid grid-cols-4 gap-5 lg:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1">
+          <!-- Block 1 -->
+          <div
+            class="group flex max-w-[340px] rounded-[5px] bg-[url('../img/ourTeam_01.jpg')] bg-cover bg-center bg-no-repeat"
+          >
+            <div
+              class="flex flex-col items-center justify-between rounded-[5px] bg-veryBlue pt-16 text-white opacity-0 transition duration-150 ease-in-out group-hover:opacity-100"
+            >
+              <div class="flex flex-col items-center">
+                <h3 class="mb-6 text-2xl font-medium">Jane Doe</h3>
+                <p class="mb-[60px] text-lg font-medium">Company / CEO</p>
+                <p class="px-8 text-center text-lg font-light">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla
+                  turpis tempor enim. Vel tristique suspendisse. Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Itaque illum modi fuga eveniet! Cum deserunt hic
+                  labore in qui! Dolores.
+                </p>
+              </div>
+
+              <!-- Social Link -->
+              <div class="my-10 flex items-center gap-x-10">
+                <a class="cursor-pointer" href="#">
+                  <img src="img/icons/facebook.svg" alt="Facebook" />
+                </a>
+                <a class="cursor-pointer" href="#">
+                  <img src="img/icons/twitter.svg" alt="Twitter" />
+                </a>
+                <a class="cursor-pointer" href="#">
+                  <img src="img/icons/instagram.svg" alt="Instagram" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Block 2 -->
+          <div
+            class="group flex max-w-[340px] rounded-[5px] bg-[url('../img/ourTeam_02.jpg')] bg-cover bg-center bg-no-repeat"
+          >
+            <div
+              class="flex flex-col items-center justify-between rounded-[5px] bg-veryBlue pt-16 text-white opacity-0 transition duration-150 ease-in-out group-hover:opacity-100"
+            >
+              <div class="flex flex-col items-center">
+                <h3 class="mb-6 text-2xl font-medium">Jane Doe</h3>
+                <p class="mb-[60px] text-lg font-medium">Company / CEO</p>
+                <p class="px-8 text-center text-lg font-light">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit
+                  amet consectetur adipisicing elit. Blanditiis, hic. Itaque illum modi fuga
+                  eveniet! Cum deserunt hic labore in qui! Dolores.
+                </p>
+              </div>
+
+              <!-- Social Link -->
+              <div class="my-10 flex items-center gap-x-10">
+                <a class="cursor-pointer" href="#">
+                  <img src="img/icons/facebook.svg" alt="Facebook" />
+                </a>
+                <a class="cursor-pointer" href="#">
+                  <img src="img/icons/twitter.svg" alt="Twitter" />
+                </a>
+                <a class="cursor-pointer" href="#">
+                  <img src="img/icons/instagram.svg" alt="Instagram" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Block 3 -->
+          <div
+            class="group flex max-w-[340px] rounded-[5px] bg-[url('../img/ourTeam_03.jpg')] bg-cover bg-center bg-no-repeat"
+          >
+            <div
+              class="flex flex-col items-center justify-between rounded-[5px] bg-veryBlue pt-16 text-white opacity-0 transition duration-150 ease-in-out group-hover:opacity-100"
+            >
+              <div class="flex flex-col items-center">
+                <h3 class="mb-6 text-2xl font-medium">Jane Doe</h3>
+                <p class="mb-[60px] text-lg font-medium">Company / CEO</p>
+                <p class="px-8 text-center text-lg font-light">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla
+                  turpis tempor enim. Vel tristique suspendisse. Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Itaque illum modi fuga eveniet! Cum deserunt hic
+                  labore in qui! Dolores.
+                </p>
+              </div>
+
+              <!-- Social Link -->
+              <div class="my-10 flex items-center gap-x-10">
+                <a class="cursor-pointer" href="#">
+                  <img src="img/icons/facebook.svg" alt="Facebook" />
+                </a>
+                <a class="cursor-pointer" href="#">
+                  <img src="img/icons/twitter.svg" alt="Twitter" />
+                </a>
+                <a class="cursor-pointer" href="#">
+                  <img src="img/icons/instagram.svg" alt="Instagram" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Block 4 -->
+          <div
+            class="group flex max-w-[340px] rounded-[5px] bg-[url('../img/ourTeam_04.jpg')] bg-cover bg-center bg-no-repeat"
+          >
+            <div
+              class="flex flex-col items-center justify-between rounded-[5px] bg-veryBlue pt-16 text-white opacity-0 transition duration-150 ease-in-out group-hover:opacity-100"
+            >
+              <div class="flex flex-col items-center">
+                <h3 class="mb-6 text-2xl font-medium">Jane Doe</h3>
+                <p class="mb-[60px] text-lg font-medium">Company / CEO</p>
+                <p class="px-8 text-center text-lg font-light">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla
+                  turpis tempor enim. Vel tristique suspendisse. Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Blanditiis, hic.
+                </p>
+              </div>
+
+              <!-- Social Link -->
+              <div class="my-10 flex items-center gap-x-10">
+                <a class="cursor-pointer" href="#">
+                  <img src="img/icons/facebook.svg" alt="Facebook" />
+                </a>
+                <a class="cursor-pointer" href="#">
+                  <img src="img/icons/twitter.svg" alt="Twitter" />
+                </a>
+                <a class="cursor-pointer" href="#">
+                  <img src="img/icons/instagram.svg" alt="Instagram" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- BLOG SECTION -->
+    <section class="mb-[210px] flex justify-center md:mb-[50px]">
+      <div class="max-w-[1440px] xl:px-2 md:mb-20 sm:mb-14">
+        <h2 class="section-title">Blog</h2>
+        <div class="grid grid-cols-3 gap-7 md:grid-cols-2 xs:grid-cols-1">
+          <!-- Block 1 -->
+          <a class="cursor-pointer" href="#">
+            <div
+              class="group relative flex max-w-[461px] flex-col items-center justify-between rounded-tr-[100px] bg-[#11161C] p-[22px] sm:p-2"
+            >
+              <!-- Content -->
+              <div class="z-10 group-hover:text-white">
+                <!-- Image Post -->
+                <div
+                  class="mb-6 flex h-[415px] max-w-[415px] items-end rounded-[7px] rounded-tr-[100px] bg-[url('../img/blog_01.jpg')] bg-cover bg-center bg-no-repeat sm:h-[270px] xs:h-[415px]"
+                >
+                  <div
+                    class="font-lg blue-shadow flex h-[53px] w-[125px] items-center justify-center rounded-[5px] rounded-tr-[50px] bg-[#003ADB] text-white"
+                  >
+                    Techno
+                  </div>
+                </div>
+                <!-- Date -->
+                <div
+                  class="mb-6 flex justify-between text-lg font-medium text-[#727272] duration-500 group-hover:text-white"
+                >
+                  <div>07/04/2022</div>
+                  <div>15:02</div>
+                </div>
+                <h3
+                  class="mb-6 text-2xl font-medium text-[#D0D0D0] duration-500 group-hover:text-white"
+                >
+                  TikTok Banned in Germany
+                </h3>
+                <p
+                  class="mb-6 max-h-[200px] overflow-hidden text-lg font-light text-[#9C9898] duration-500 group-hover:text-white"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla
+                  turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis
+                  lacus, odio velit. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Provident maiores dolorum dicta et. Corporis explicabo alias iste, ut ad adipisci.
+                  Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+              <!-- Blue underline  -->
+              <div
+                class="blue-shadow absolute bottom-0 h-2 w-full max-w-[600px] bg-[#003ADB] duration-300 ease-in-out group-hover:h-[70%] group-hover:w-[100%]"
+              ></div>
+            </div>
+          </a>
+
+          <!-- Block 2 -->
+          <a class="cursor-pointer" href="#">
+            <div
+              class="group relative flex max-w-[461px] flex-col items-center justify-between rounded-tr-[100px] bg-[#11161C] p-[22px] sm:p-2"
+            >
+              <!-- Content -->
+              <div class="z-10">
+                <!-- Image Post -->
+                <div
+                  class="mb-6 flex h-[415px] max-w-[415px] items-end rounded-[7px] rounded-tr-[100px] bg-[url('../img/blog_02.jpg')] bg-cover bg-center bg-no-repeat sm:h-[270px] xs:h-[415px]"
+                >
+                  <div
+                    class="font-lg blue-shadow flex h-[53px] w-[125px] items-center justify-center rounded-[5px] rounded-tr-[50px] bg-[#003ADB] text-white"
+                  >
+                    Techno
+                  </div>
+                </div>
+                <!-- Date -->
+                <div
+                  class="mb-6 flex justify-between text-lg font-medium text-[#727272] duration-500 group-hover:text-white"
+                >
+                  <div>08/04/2023</div>
+                  <div>16:04</div>
+                </div>
+                <h3
+                  class="mb-6 text-2xl font-medium text-[#D0D0D0] duration-500 group-hover:text-white"
+                >
+                  Neon party in Germany
+                </h3>
+                <p
+                  class="mb-6 max-h-[200px] overflow-hidden text-lg font-light text-[#9C9898] duration-500 group-hover:text-white"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla
+                  turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis
+                  lacus, odio velit. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Provident maiores dolorum dicta et. Corporis explicabo alias iste, ut ad adipisci.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, suscipit aut
+                  nobis repellendus numquam culpa ipsam voluptatum vel neque qui?
+                </p>
+              </div>
+              <!-- Blue underline  -->
+              <div
+                class="blue-shadow absolute bottom-0 h-2 w-full max-w-[600px] bg-[#003ADB] duration-300 ease-in-out group-hover:h-[70%] group-hover:w-[100%]"
+              ></div>
+            </div>
+          </a>
+
+          <!-- Block 3 -->
+          <a class="cursor-pointer" href="#">
+            <div
+              class="group relative flex max-w-[461px] flex-col items-center justify-between rounded-tr-[100px] bg-[#11161C] p-[22px] sm:p-2"
+            >
+              <!-- Content -->
+              <div class="z-10">
+                <!-- Image Post -->
+                <div
+                  class="mb-6 flex h-[415px] max-w-[415px] items-end rounded-[7px] rounded-tr-[100px] bg-[url('../img/blog_03.jpg')] bg-cover bg-center bg-no-repeat sm:h-[270px] xs:h-[415px]"
+                >
+                  <div
+                    class="font-lg blue-shadow flex h-[53px] w-[125px] items-center justify-center rounded-[5px] rounded-tr-[50px] bg-[#003ADB] text-white"
+                  >
+                    Techno
+                  </div>
+                </div>
+                <!-- Date -->
+                <div
+                  class="mb-6 flex justify-between text-lg font-medium text-[#727272] duration-500 group-hover:text-white"
+                >
+                  <div>13/10/2023</div>
+                  <div>01:01</div>
+                </div>
+                <h3
+                  class="mb-6 text-2xl font-medium text-[#D0D0D0] duration-500 group-hover:text-white"
+                >
+                  Art object in Italy
+                </h3>
+                <p
+                  class="mb-6 max-h-[200px] overflow-hidden text-lg font-light text-[#9C9898] duration-500 group-hover:text-white"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla
+                  turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis
+                  lacus, odio velit. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Provident maiores dolorum dicta et. Corporis explicabo alias iste, ut ad adipisci.
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae velit saepe magni
+                  libero. Error veritatis expedita consectetur distinctio molestias doloribus.
+                </p>
+              </div>
+              <!-- Blue underline  -->
+              <div
+                class="blue-shadow absolute bottom-0 h-2 w-full max-w-[600px] bg-[#003ADB] duration-300 ease-in-out group-hover:h-[70%] group-hover:w-[100%]"
+              ></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ SECTION  -->
+    <section class="mb-[210px] flex justify-center md:mb-[50px]">
+      <div class="w-full max-w-[1440px] xl:px-2 md:mb-20 sm:mb-0">
+        <h2 class="section-title">FAQ</h2>
+
+        <!-- Question 1 -->
+        <div class="accordion-item mb-7 flex cursor-pointer flex-col">
+          <div
+            class="accordion-title flex items-center justify-between rounded-md bg-[#11161C] p-7 text-2xl font-extrabold text-white sm:p-2"
+          >
+            <h3 class="flex-shrink">What services does your digital agency specialize in?</h3>
+            <div
+              class="faq-arrow faq-arrow-closed h-[25px] w-[25px] flex-shrink-0 text-2xl font-extrabold text-white"
+            ></div>
+          </div>
+          <div class="accordion-content bg-[#1B2837] text-base font-normal text-white">
+            <p>
+              We specialize in digital marketing, including SEO optimization, pay-per-click
+              advertising, social media management, and web development. We also offer brand
+              strategy consulting. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              sapiente corporis excepturi pariatur. Esse repudiandae, minima distinctio debitis
+              dolores vitae.
+            </p>
+          </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="accordion-item mb-7 flex cursor-pointer flex-col">
+          <div
+            class="accordion-title flex items-center justify-between rounded-md bg-[#11161C] p-7 text-2xl font-extrabold text-white sm:p-2"
+          >
+            <h3 class="flex-shrink">What results can I expect from working with your agency?</h3>
+            <div
+              class="faq-arrow faq-arrow-closed flex-shrink-0 text-2xl font-extrabold text-white"
+            ></div>
+          </div>
+          <div class="accordion-content bg-[#1B2837] text-base font-normal text-white">
+            <p>
+              We specialize in digital marketing, including SEO optimization, pay-per-click
+              advertising, social media management, and web development. We also offer brand
+              strategy consulting. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              sapiente corporis excepturi pariatur. Esse repudiandae, minima distinctio debitis
+              dolores vitae.
+            </p>
+          </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="accordion-item mb-7 flex cursor-pointer flex-col">
+          <div
+            class="accordion-title flex items-center justify-between rounded-md bg-[#11161C] p-7 text-2xl font-extrabold text-white sm:p-2"
+          >
+            <h3 class="flex-shrink">What is the typical project turnaround time?</h3>
+            <div
+              class="faq-arrow faq-arrow-closed flex-shrink-0 text-2xl font-extrabold text-white"
+            ></div>
+          </div>
+          <div class="accordion-content bg-[#1B2837] text-base font-normal text-white">
+            <p>
+              We specialize in digital marketing, including SEO optimization, pay-per-click
+              advertising, social media management, and web development. We also offer brand
+              strategy consulting. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              sapiente corporis excepturi pariatur. Esse repudiandae, minima distinctio debitis
+              dolores vitae.
+            </p>
+          </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="accordion-item mb-7 flex cursor-pointer flex-col">
+          <div
+            class="accordion-title flex items-center justify-between rounded-md bg-[#11161C] p-7 text-2xl font-extrabold text-white sm:p-2"
+          >
+            <h3 class="flex-shrink">What are the pricing options for your agency's services?</h3>
+            <div
+              class="faq-arrow faq-arrow-closed flex-shrink-0 text-2xl font-extrabold text-white"
+            ></div>
+          </div>
+          <div class="accordion-content bg-[#1B2837] text-base font-normal text-white">
+            <p>
+              We specialize in digital marketing, including SEO optimization, pay-per-click
+              advertising, social media management, and web development. We also offer brand
+              strategy consulting. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              sapiente corporis excepturi pariatur. Esse repudiandae, minima distinctio debitis
+              dolores vitae.
+            </p>
+          </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="accordion-item mb-7 flex cursor-pointer flex-col">
+          <div
+            class="accordion-title flex items-center justify-between rounded-md bg-[#11161C] p-7 text-2xl font-extrabold text-white sm:p-2"
+          >
+            <h3 class="flex-shrink">How can we initiate a partnership with your agency?</h3>
+            <div
+              class="faq-arrow faq-arrow-closed flex-shrink-0 text-2xl font-extrabold text-white"
+            ></div>
+          </div>
+          <div class="accordion-content bg-[#1B2837] text-base font-normal text-white">
+            <p>
+              We specialize in digital marketing, including SEO optimization, pay-per-click
+              advertising, social media management, and web development. We also offer brand
+              strategy consulting. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              sapiente corporis excepturi pariatur. Esse repudiandae, minima distinctio debitis
+              dolores vitae.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CLIENTS SECTION -->
+    <section class="mb-[164px] flex justify-center bg-[#0A0F14] py-[65px] md:mb-[50px]">
+      <div class="w-full max-w-[1440px] xl:px-2">
+        <h2 class="section-title">Clients</h2>
+        <div class="flex flex-wrap items-center gap-x-20 gap-y-5 md:gap-x-10">
+          <img class="max-w-[125px]" src="img/clients/mango.svg" alt="mango" />
+          <img class="max-w-[125px]" src="img/clients/microsoft.svg" alt="microsoft" />
+          <img class="max-w-[125px]" src="img/clients/nike.svg" alt="nike" />
+          <img class="max-w-[125px]" src="img/clients/amazon.svg" alt="amazon" />
+          <img class="max-w-[125px]" src="img/clients/mango.svg" alt="mango" />
+          <img class="max-w-[125px]" src="img/clients/microsoft.svg" alt="microsoft" />
+          <img class="max-w-[125px]" src="img/clients/nike.svg" alt="nike" />
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT US SECTION -->
+    <section class="mb-[210px] flex justify-center md:mb-0">
+      <div class="w-full max-w-[1440px] xl:px-2 md:mb-20 sm:mb-14">
+        <h2 class="section-title">Contact Us</h2>
+
+        <div class="flex w-full justify-between gap-x-10 md:justify-center sm:flex-wrap">
+          <!-- Form -->
+
+          <form class="mb-20 flex w-full max-w-[586px] flex-col">
+            <div class="mb-6 flex flex-col">
+              <label for="name" class="text-lg font-medium text-white">Name</label>
+              <input
+                class="border-0 border-b-[1px] border-[#536A82] bg-main py-4 text-lg font-medium text-white placeholder-[#2E2E2E]"
+                type="text"
+                id="name"
+                placeholder="Name here"
+              />
+            </div>
+            <div class="mb-6 flex flex-col">
+              <label for="last name" class="text-lg font-medium text-white">Last name</label>
+              <input
+                class="border-0 border-b-[1px] border-[#536A82] bg-main py-4 text-lg font-medium text-white placeholder-[#2E2E2E]"
+                type="text"
+                id="last name"
+                placeholder="Last name here"
+              />
+            </div>
+            <div class="mb-6 flex flex-col justify-start">
+              <label for="email" class="text-lg font-medium text-white">Email</label>
+              <input
+                class="border-0 border-b-[1px] border-[#536A82] bg-main py-4 text-lg font-medium text-white placeholder-[#2E2E2E]"
+                type="text"
+                id="email"
+                placeholder="Example@mail.com"
+              />
+            </div>
+            <div class="mb-16 flex flex-col">
+              <label class="text-lg font-medium text-white" for="message">Message</label>
+              <textarea
+                class="min-h-32 border-0 border-b-[1px] border-[#536A82] bg-main py-4 text-lg font-medium text-white placeholder-[#2E2E2E]"
+                name="message"
+                id=""
+                cols="30"
+                rows="3"
+                placeholder="Start typing"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="btn blue-shadow max-w-[177px] p-3 text-lg font-normal text-white"
+            >
+              Send message
+            </button>
+          </form>
+
+          <!-- Contacts -->
+          <div class="flex w-full max-w-[586px] flex-col">
+            <!-- Mobile number -->
+            <div class="mb-20">
+              <div class="mb-7 flex">
+                <img class="mr-[18px]" src="img/icons/phone-line.svg" alt="phone" />
+                <h3 class="text-lg font-bold text-white">Mobile number</h3>
+              </div>
+              <div class="mb-5 flex w-full pl-10">
+                <p class="pr-7 text-lg font-medium text-[#B6B6B6]">+1 252-937-3762</p>
+                <a
+                  class="blue-shadow cursor-pointer rounded-full bg-btn px-[42px] py-[3px] text-[13px] text-white"
+                  href="#"
+                >
+                  Call
+                </a>
+              </div>
+              <div class="flex pl-10">
+                <p class="pr-7 text-lg font-medium text-[#B6B6B6]">+1 252-937-3762</p>
+                <a
+                  class="blue-shadow cursor-pointer rounded-full bg-btn px-[42px] py-[3px] text-[13px] text-white"
+                  href="#"
+                >
+                  Call
+                </a>
+              </div>
+            </div>
+            <!-- E-mail -->
+            <div class="mb-16">
+              <div class="mb-7 flex">
+                <img class="mr-[18px]" src="img/icons/message-3-line.svg" alt="phone" />
+                <h3 class="text-lg font-bold text-white">E-mail</h3>
+              </div>
+              <div class="mb-5 flex w-full pl-10">
+                <p class="pr-7 text-lg font-medium text-[#B6B6B6]">sample@example.com</p>
+              </div>
+            </div>
+            <!-- Adress -->
+            <div>
+              <div class="mb-7 flex">
+                <img class="mr-[18px]" src="img/icons/map-pin-2-line.svg" alt="phone" />
+                <h3 class="text-lg font-bold text-white">Adress</h3>
+              </div>
+              <div class="mb-5 flex w-full pl-10">
+                <p class="pr-7 text-lg font-medium text-[#B6B6B6]">
+                  5 Indian Spring Dr. Mundelein, IL 60060
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER SECTION -->
+    <section class="flex justify-center bg-[#0A0F14]">
+      <div class="flex w-full max-w-[1440px] flex-col items-center pt-[73px]">
+        <!-- logo  -->
+        <div class="mb-10">
+          <a class="flex" href="/">
+            <img src="img/logo.svg" alt="logo" />
+          </a>
+        </div>
+        <!-- Some text -->
+        <div class="mb-16 text-lg font-light text-[#787878]">
+          <p class="max-w-[559px] text-center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis
+            tempor enim. Vel tristique suspendisse
+          </p>
+        </div>
+        <!-- Link -->
+        <div>
+          <ul
+            class="mb-20 flex flex-wrap gap-x-24 text-lg font-bold text-white md:mb-10 md:gap-x-10 md:px-2"
+          >
+            <li><a href="#">Website development</a></li>
+            <li><a href="#">Branding</a></li>
+            <li><a href="#">UI/UX design</a></li>
+            <li><a href="#">Software</a></li>
+            <li><a href="#">Digital marketing</a></li>
+          </ul>
+        </div>
+        <!-- Social Link -->
+        <div class="mb-16">
+          <div class="my-10 flex items-center gap-x-10">
+            <a class="cursor-pointer" href="#">
+              <img src="img/icons/facebook.svg" alt="Facebook" />
+            </a>
+            <a class="cursor-pointer" href="#">
+              <img src="img/icons/twitter.svg" alt="Twitter" />
+            </a>
+            <a class="cursor-pointer" href="#">
+              <img src="img/icons/instagram.svg" alt="Instagram" />
+            </a>
+          </div>
+        </div>
+        <!-- Copyright -->
+        <div class="mb-20 text-[15px] text-white opacity-[0.5]">
+          <p>Copyright © 2021. Raven Digital. All rights reserved.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- END -->
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>

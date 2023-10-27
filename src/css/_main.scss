@@ -1,0 +1,146 @@
+.social-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 10px;
+  margin-right: 1rem;
+  max-width: 60px;
+  height: 1068px;
+}
+
+.social-line::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 60px;
+  height: 1068px;
+  width: 1px;
+  background-color: #606e7e;
+}
+
+// For Button
+.blue-shadow {
+  box-shadow: 0px 10px 30px 0px rgba(64, 106, 255, 0.24);
+}
+
+.blue-shadow:hover {
+  box-shadow: 0px 10px 30px 0px rgba(64, 106, 255, 0.3);
+}
+
+.sec2shadow:hover {
+  box-shadow: 0px 0px 30px 10px rgba(64, 106, 255, 0.1);
+}
+
+.btn {
+  @apply rounded-full bg-btn px-6;
+}
+
+// Underline hover effect in main nav
+li > a::after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0;
+  top: 5px;
+  background: transparent;
+  transition: all 0.2s;
+}
+
+li > a:hover::after,
+li > a.active-nav::after {
+  width: 100%;
+  background: white;
+}
+
+// Vertical Line in Achievements section
+.vline::before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 240px;
+  width: 1px;
+  background-color: #abc4e3;
+  bottom: -60px;
+  left: -100px;
+}
+
+.ui-slider-shadow {
+  background: #003adb;
+  box-shadow: 0px 2px 14px 0px rgba(64, 140, 255, 0.24);
+}
+
+// for blog section
+.blue-hover-effect::after {
+  content: '';
+  position: absolute;
+  background-color: #003adb !important;
+  height: 500px !important;
+  width: 100% !important;
+  bottom: 0 !important;
+  left: 0 !important;
+}
+
+// SplideJS First
+#splide1 .splide__pagination {
+  margin-top: 30px;
+}
+
+// SplideJS Second
+.splide__arrow {
+  display: none;
+}
+
+#splide2 .splide__pagination {
+  @apply static flex list-none flex-col items-center sm:w-[380px] sm:flex-row sm:gap-x-16;
+}
+
+#splide2 .splide__pagination__page {
+  @apply h-[83px] w-[2px] rounded-none bg-white sm:h-[30px] sm:rotate-90;
+}
+
+#splide2 .splide__pagination__page.is-active {
+  @apply ui-slider-shadow h-[83px] w-[2px] scale-100 sm:h-[30px] sm:rotate-90;
+}
+
+// for FAQ section
+.border-faq {
+  @apply rounded-t-md border-[1px] border-[#003ADB];
+}
+
+.accordion-content {
+  display: grid;
+  grid-template-rows: 0;
+  overflow: hidden;
+  transition: grid-template-rows 0.3s ease-in;
+}
+
+.accordion-content-fr1 {
+  grid-template-rows: 1fr;
+  transition: grid-template-rows 0.3s ease-out;
+}
+
+.accordion-content p {
+  padding: 28px;
+  margin: 0;
+}
+
+.faq-arrow-closed {
+  background: url('../img/questions/arrow-closed.svg') no-repeat;
+  width: 21px;
+  height: 21px;
+  transition: all 0.2s ease-in-out;
+}
+
+.faq-arrow-open {
+  background: url('../img/questions/arrow-open.svg') no-repeat;
+  width: 21px;
+  height: 21px;
+  transition: all 0.2s ease-in-out;
+}
+
+// section title
+.section-title {
+  @apply mb-[92px] text-center text-5xl font-medium text-white xl:text-4xl md:mb-9 sm:mb-7 sm:text-left xs:mb-3 xs:text-3xl;
+}
